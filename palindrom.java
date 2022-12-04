@@ -1,8 +1,8 @@
 package Day2PracticeProblem;
 
-public class reverseNumberByForLoop {
+public class palindrom {
     public static void main(String[] args) {
-        int num = 1223;
+        int num = 121;
         int temp = 0;
         int reminder;
         int originalNum = num;
@@ -15,6 +15,10 @@ public class reverseNumberByForLoop {
 
         System.out.println(temp);
 
-
+        if (temp == originalNum) {
+            System.out.println(temp + " is pallindrom");
+        } else {
+            System.out.println(temp + " is not pallindrom");
+        }
     }
 }
